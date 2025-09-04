@@ -2,6 +2,7 @@
   "name": "amplify-my-app-01",
   "version": "0.1.0",
   "private": true,
+  "type":"module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
@@ -30,19 +31,5 @@
     "tailwindcss": "^4",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2"
-  },
-  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shiori123456789/amplify-my-app-01.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Shiori123456789/amplify-my-app-01/issues"
-  },
-  "homepage": "https://github.com/Shiori123456789/amplify-my-app-01#readme"
+  }
 }
